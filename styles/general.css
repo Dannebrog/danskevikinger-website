@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  font-family: Roboto, Arial;
+  line-height: 25px;
+  background-color: #121212;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 400px;
+  color: #ffffff;
+  text-align: center; 
+}
+
+.image {
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+  
+}
+
+.main-text {
+  width: 360px;
+}
+
+.heart {
+  height: 15px;
+  width: 15px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0px;
+}
+
+/* From Uiverse.io by TreepDeep */ 
+.discord-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Afstand mellem tekst og ikon */
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #5662f6;
+  border: none;
+  border-radius: 8px; /* Runde hjørner */
+  text-decoration: none; /* Fjern understregning */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.discord-button:hover {
+  transform: scale(1.05); /* Lidt større ved hover */
+  background-color: #6c7ff5; /* Lysere farve */
+}
+
+.discord-button svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor; /* Matcher tekstfarve */
+}
+
+.discord-button:hover {
+  transform: scale(1.02);
+  background-color: rgb(119, 133, 204);
+  box-shadow: 0 2px 4px rgba(119, 133, 204, 0.1);
+}
+
+.discord-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.discord-button:active {
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .discord-button {
+    max-width: 100%;
+  }
+}
