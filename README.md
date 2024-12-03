@@ -4,7 +4,7 @@
 
 ## Danske Vikinger Placeholder Website
 
-This repository contains a simple HTML and CSS website for the former 'Danske Vikinger' Rust server. The page displays a message about the server's closure and includes a link to the Discord server.
+This repository contains a simple HTML and CSS website for 'Danske Vikinger' Rust server. The page displays a message about the server's closure and includes a link to the Discord server.
 
 ---
 
